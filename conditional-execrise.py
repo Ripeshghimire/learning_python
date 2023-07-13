@@ -163,12 +163,18 @@
 
 # wap to check if a given number is multiple of 3 or not 
 #wap to check if a given number is multiple of 5 or not
-num = int(input("Enter a number"))
-# if num % 3 == 0 and num % 5 == 0:
-#     print("FizzBuzz")
-if num % 3 == 0:
-    print("Fizz")
-elif num % 5 == 0:
-    print("Buzz")
-else:
-    print(f'It is not the multiple of both numbers {num}')
+# num = int(input("Enter a number"))
+# if num==0:
+#     print("You cannot enter zero ")
+# elif (num % 3 == 0) and (num % 5 == 0):
+#      print("FizzBuzz")
+# elif num % 3 == 0:
+#     print("Fizz")
+# elif num % 5 == 0:
+#     print("Buzz")
+# else:f
+#     print(f'It is not the multiple of both numbers {num}')
+
+#. wap to ask use with a  amount and display how many bills of each 
+
+
