@@ -8,7 +8,7 @@
 #print(f'the middle character of {userinput[len]}')
 
 #Slicing
-text = "ripesh"
+# text = "ripesh"
 #subtext = text[1:4]
 #print(subtext)
 
