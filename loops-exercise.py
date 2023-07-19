@@ -47,9 +47,9 @@
 
 # while True:
 #     userInput = input("Enter what do you want to do? ").upper()
-#     if(userInput ==start):
+#     if(userInput ==start ):
 #         print("Car started")  
-#     elif userInput == stop:
+#     elif userInput == stop :
 #         print("car stopped")
 #     elif userInput == help:
 #         print('''Please choose from the given Statement 
@@ -70,7 +70,6 @@
 # count = 0 
 # while (count < 3):
 #     userInput = int(input("Enter the pin: "))
-#     count = count + 1
 #     if(userInput == pin):
 #         print("Unlocked")
 #         break 
@@ -78,4 +77,16 @@
 #         print("Please try again ")
 #     else:
 #         print("You have reached maximum no of tries")
+#     count = count + 1
 
+#multiplication 
+# userInput = int(input("Enter a number"))
+# for n in range(1,11):
+#     print(f'{userInput * n}')
+
+#factorial of given number 
+# userInput = int(input("Enter a number"))
+# fact = 1 
+# for i in range(1,userInput+1):
+#     fact *= i
+# print(fact)
