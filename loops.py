@@ -63,34 +63,35 @@
 # WAP TO FIND THE SUM OF ELEMENTS OF A GIVEN LIST OF NUMBERS
 # WAP TO FIND THE MUL OF ELEMENTS OF A GIVEN LIST OF NUMBER
 
-for i in range(1,11):
-    print(f'The numbers from 1 to 10 are {i}')
+# for i in range(1,11):
+#     print(f'The numbers from 1 to 10 are {i}')
 
-for i in range(1,11):
-    if i % 2 == 0:
-        print(f'The even numbers from 1 to 10 are {i}')
+# for i in range(1,11):
+#     if i % 2 == 0:
+#         print(f'The even numbers from 1 to 10 are {i}')
     
-for odd in range(1,21):
-    if odd % 2 == 1:
-        print(f'The odd numbers from 1 to 20 are {odd}')
+# for odd in range(1,21):
+#     if odd % 2 == 1:
+#         print(f'The odd numbers from 1 to 20 are {odd}')
 
-oddcount = 0
-evenCount = 0
+# oddcount = 0
+# evenCount = 0
 
-for count in range(1,31):
-    if count % 2 == 0:
-        evenCount = evenCount + 1 
-    elif count % 2 == 1:
-        oddcount = oddcount + 1 
-print(oddcount)
-print(evenCount)
+# for count in range(1,31):
+#     if count % 2 == 0:
+#         evenCount +=   1 
+#     elif count % 2 == 1:
+#         oddcount = oddcount + 1 
+# print(oddcount)
+# print(evenCount)
 
-num_list = [1,2,3,4,5]
-sum = 0
-product = 1
-for num in num_list:
-    sum = sum + num 
-    product = product * num
-print(f'The sum of the given list is {sum}')
-print(f'The product of the list is {product}')
+# num_list = [1,2,3,4,5]
+# sum = 0
+# product = 1
+# for num in num_list:
+#     sum = sum + num 
+#     product = product * num
+# print(f'The sum of the given list is {sum}')
+# print(f'The product of the list is {product}')
 
+#

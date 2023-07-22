@@ -54,15 +54,16 @@
 # else:
 #     print("username and password wrong.Please Try again")
 
-#6.write a python program to reverse a given input no 
+# 6.write a python program to reverse a given input no 
 # input_number = int(input("Enter a number"))
 # reverse_number = 0
 # while(input_number!= 0):
 #     rem = input_number % 10 
 #     reverse_number  = (reverse_number * 10 )+ rem
 #     input_number = input_number // 10 
+#     print(input_number)
 
-# print(reverse_number)
+
 
 #7. Write a python program to check whether the given no is positive negative or zero
 # input_number = int(input("Enter a number"))

@@ -90,3 +90,95 @@
 # for i in range(1,userInput+1):
 #     fact *= i
 # print(fact)
+
+# list = []
+# for num in range(1,11):
+#     user_input = (input("Enter the number"))
+#     list.append(user_input)
+
+# print(list)
+
+# myList = [1,2,3,4,5,6,78,8]
+# # from the given seperate the odd and even numbers in two separate list
+# oddList =[]
+# evenList = []
+# for num in myList:
+#     if num % 2 == 0:
+#         evenList.append(num)
+#     elif num % 2 == 1:
+#         oddList.append(num)
+#     else:
+#         print("")
+# print(f'The odd list is {oddList}')
+# print(f'The even list is {evenList}')
+
+#WAP TO separate vowel and consonent from a given string and place in list 
+# user_name = input("Enter name: ")
+# vowel = []
+# consonant = []
+# vow = {'a','e','i','o','u'}
+# for name in user_name:
+#     if name.lower() in vow :
+#         vowel.append(name)
+#     else:
+#         consonant.append(name )
+
+# print(f'The vowel list is {vowel}')
+# print(f'The consonant list is {consonant}')
+
+#from a given list of names separate the names beginning with vowels and consonent
+
+#WAP TO separate even and odd length names form a given list 
+
+# user_name = ["Ripesh","Roshan","Sandesh","Bagal","Bivek"]
+# oddList = []
+# evenList = []
+# for name in user_name:
+#     length = len(name)
+#     if(length % 2 == 0):
+#         evenList.append(name)
+#     else:
+#         oddList.append(name)
+
+# print(oddList)
+# print(evenList)
+
+# name = "Ripesh"
+# # print(name[::-1])
+
+# length = len(name)
+# for i in range(length-1,-1,-1):
+#     print (name[i])
+
+
+# Write a program to print multiplication table of a given number using for in loop
+# Count the total number of digits in a number using for in loop
+# Print list in reverse order using a loop do not use function
+# WAP to check if the user entered string is palindrome or not
+
+# mylist = ["Ripesh",12,"Ram","Shyam","Hari",22]
+# length = len(mylist)
+# reverse_list = []
+# for rev in range(length-1,-1,-1):
+#     reverse_list.append(mylist[rev])
+
+# print(reverse_list)
+
+# num =int(input("Enter a number: "))
+# count = 0
+# while num!=0:
+#     num = num //10
+#     count = count + 1 
+
+# print(f'The number of digits in the number is {count}' )
+
+#Palindrome 
+# user_input = input("Enter the string ")
+# reverse  = user_input[::-1]
+# if(user_input == reverse):
+#     print(f'The given string is palindrome {user_input}')
+# elif(user_input !=  reverse):
+#     print(f'The given string is not palindrome {user_input}')
+# else:
+#     print("Wrong input ")
+
