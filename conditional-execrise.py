@@ -40,7 +40,7 @@
 # else:
 #     print(num)
 
-#5.write a python program to check the username and password a
+#5.write a python program to check the username and password a check 
 # input_user = input("Enter the username ")
 # input_password = input("Enter the password ")
 # username= "RIPESH"
@@ -108,7 +108,7 @@
 # else:
 #     print("Please choose from the gives course that i provided you ")
  
-# 10.wap to 
+# 10.wap to check the a
 # user = input("Are you a teacher or student")
 # age = int(input("What is your age"))
 # if user.upper() == "TEACHER" or user.upper()=="STUDENT":

@@ -182,3 +182,20 @@
 # else:
 #     print("Wrong input ")
 
+# Given a list of strings ['apple', 'banana', 'cherry', 'date']
+# , write a Python program to concatenate all the strings into one using a for loop.
+# fruits = ['apple', 'banana','cherry','date']
+# result = ""
+# for fruit in fruits:
+#     result = result + fruit
+# print(f'{result}')
+
+# num_list = [1,2,3,4,5,6]
+# greater = 0
+# for num in num_list:
+#     greater = num
+#     if greater < num :
+#         greater = num 
+
+# print(f'The greatest number is {greater}')
+
