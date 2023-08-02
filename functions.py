@@ -124,16 +124,95 @@
 # calculator(num1,num2,userCalculation)
 
 # Write a Python function to find the maximum of three numbers.
-def findgreaterst(a,b,c):
-    if a > b and a > c :
-        print(f'The greatest no is {a}')
-    elif b > c and b > a :
-        print(f'The greatest no is {b}')
-    elif c > a and c >b :
-        print(f'The greatest no is {c}')
-    else:
-        print ("error")
-first_num = int(input("Enter the first number: "))
-second_num = int(input("Enter the second number: "))
-third_num = int (input("Enter the third number: "))
-findgreaterst(first_num,second_num,third_num)
+# def findgreaterst(a,b,c):
+#     if a > b and a > c :
+#         print(f'The greatest no is {a}')
+#     elif b > c and b > a :
+#         print(f'The greatest no is {b}')
+#     elif c > a and c >b :
+#         print(f'The greatest no is {c}')
+#     else:
+#         print ("error")
+# first_num = int(input("Enter the first number: "))
+# second_num = int(input("Enter the second number: "))
+# third_num = int (input("Enter the third number: "))
+# findgreaterst(first_num,second_num,third_num)
+
+# write a program to check if a given value is in a array or no 
+# user_list = [1,3,22,23,23,23]
+# def find(num): 
+#     if num in user_list:
+#         print(f'The number is found {num}')
+#     else:
+#         print(f'The number is not found ')
+
+# userInput = int(input("Enter a number: "))
+# find(userInput)
+
+# array = [2,4,6,8,10]
+# def multiply(n):
+#     for num in array:
+#         print(f'{num} * {n} = {(num * n)} ')
+
+# multiply(2)
+# print("==================")
+# multiply(5)
+
+# put in new array
+# array = [2,4,6,8,10]
+# array1 = []
+# def multiply(n):
+#     for num in array:
+#         mul = n * num
+#         array1.append(mul)
+#     print(array1)
+# multiply(2)
+
+# def changeToNegative(value):
+#     return value * -1
+# def addNumber(value):
+#     return value + 5 
+
+# result = addNumber(12)
+# result2 = changeToNegative(result)
+# print(result2)
+# print("=============Next Execution=====")
+# result = addNumber(55)
+# print(result)
+
+#wap to calculate each member of array of value   by a givenNumber
+#and change to above 
+# array = [2,4,6,8,10]
+# array1 = []
+# def multiply(n):
+#     for num in array:
+#         mul = n * num
+#         array1.append(mul)
+
+
+# #wap to calculate is si the final result of one exection in npr and inr 
+# def si(p,t,r):
+#     interest = (p*t*r)/100
+#     return interest
+
+# npr = si(10,10,30)
+# print(f'The nepalese rupees of interest is {npr}')
+# inr = npr * 1.6
+# print(f'The indian rupees is {inr}')
+# inr = si(20,40,234)
+# print(f'The indian interest of the given value is {inr}')
+
+
+#WAP to get only even number from and array using 
+# function and display it in new array
+# user_lit = [23,12,24,523,352,124,56,57,2,2325234234,1212313,3124]
+# even_list = []
+# def onlyEven():
+#     for num in user_lit:
+#         if num % 2 == 0:
+#             even_list.append(num)
+            
+#     return even_list
+
+# even = onlyEven()
+# print(even)

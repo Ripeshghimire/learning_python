@@ -94,4 +94,3 @@
 # print(f'The sum of the given list is {sum}')
 # print(f'The product of the list is {product}')
 
-#

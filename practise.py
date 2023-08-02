@@ -49,7 +49,7 @@
 #         pass
 #     def area (l,b):
 #         area = 1
-#         userInput = int(input("Enter the lenght"))
+#         userInput = int(input("Enter the length"))
 #         userInput = int(input("ENter the breadth"))
 #         area = l * b
 #         print(area)
@@ -89,5 +89,6 @@
 
 
 # Question 10:
-# Write a Python program that generates the first n Fibonacci numbers and stores them in a list. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding numbers.
+# Write a Python program that generates the first n Fibonacci numbers and stores them in a list. 
+# The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding numbers.
 
