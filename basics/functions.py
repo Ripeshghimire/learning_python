@@ -297,15 +297,15 @@
 # Create the following  array myArray = [1,2,3,4,5,8,10,12,9,11]
 # user map in first and second quesion to double and triple and store in new array
 # User filter in third question
-myArray = [1,2,3,4,5,8,10,12,9,11]
+# myArray = [1,2,3,4,5,8,10,12,9,11]
 # result = map(square,myArray)
 # print(list(result))
 # cubic = map(cube,myArray)
 # print(list(cubic))
-Even = filter(findevenorOdd,myArray)
-print(f'The filtered numbers are ')
-for e in Even:
-    print (e)
-odd = filter(lambda x:x%2==1,myArray)
-for i in odd:
-    print(i)
+# Even = filter(findevenorOdd,myArray)
+# print(f'The filtered numbers are ')
+# for e in Even:
+#     print (e)
+# odd = filter(lambda x:x%2==1,myArray)
+# for i in odd:
+#     print(i)
