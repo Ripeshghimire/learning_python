@@ -1,0 +1,4 @@
+The highest marks is 100
+The lowest marks is 10
+the percentage is48.333333333333336
+The grade isC
