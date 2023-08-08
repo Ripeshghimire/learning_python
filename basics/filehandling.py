@@ -85,4 +85,53 @@ filePath = r'files/ripesh.txt'
 # 2) Create a dictionary with same menu items key as item and price as value
 # 3) In loop until user enters quit ask user item and quantity to order and store 
 # 4) display a bill with 13% vat and store in file
+# def showMenu():
+#     with open(r'files/menu.txt','r') as file:
+#         menu = file.read()
+#         print(f'The menu is \n {menu}')
+# # showMenu() 
+# menu = {
+#     'momo':120,
+#     'chowmein':140,
+#     'fried rice': 150,
+#     'sizzler':450
+# }
+# def takeOrder():
+#       with open(r'files/userorder.txt' , 'w')as file:
+#        while True: 
+#         showMenu()
+#         userInput = input("what would you like to have: ")
+#         keyList = list(menu.keys())
+#         if userInput == 'quit':
+#             break
+#         with open(r'files/userorder.txt' , 'a') as file:
+#             for order in keyList:
+#                 if userInput in order:
+#                     file.write(userInput+'\n')
+            
 
+# # takeOrder()
+# def display():
+#    with open(r'files/userorder.txt','r') as file:
+#     keyList = list(menu.keys())
+#     user_order = file.readlines() #gets the things that have been ordered 
+#     print(user_order)
+#     amount= 0
+#     for order in user_order:
+#         order = order.strip()
+#         if order in keyList:
+#             # print(order,menu[order])
+#             amount += menu[order]
+#     total_amount = amount + (amount/100)*13
+#     print(f'Your total bill is {total_amount}')
+    # print(menu['momo'])
+# display()    
+#    total_amount = 
+# def diction():
+#     menu = {}
+#     with open(r'files/menu.txt','r') as file:
+#         for menu in file:
+#             key,value = menu.strip().split(':')
+#             menu[key] = value
+#         print(menu)
+# diction()
