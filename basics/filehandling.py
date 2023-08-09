@@ -18,7 +18,7 @@
 # fileContent2 = myFile.readline()
 # print(fileContent2)
 #-----------------------------------------Writing to a file---------------------------------
-filePath = r'files/ripesh.txt'
+# filePath = r'files/ripesh.txt'
 # fileWrite = open(filePath , 'w')
 # fileWrite.write("This is ripesh Ghimire how are you brother")
 #-----------------------------------------Appending to a file---------------------------------
@@ -89,7 +89,7 @@ filePath = r'files/ripesh.txt'
 #     with open(r'files/menu.txt','r') as file:
 #         menu = file.read()
 #         print(f'The menu is \n {menu}')
-# # showMenu() 
+#showMenu() 
 # menu = {
 #     'momo':120,
 #     'chowmein':140,
@@ -110,7 +110,7 @@ filePath = r'files/ripesh.txt'
 #                     file.write(userInput+'\n')
             
 
-# # takeOrder()
+# takeOrder()
 # def display():
 #    with open(r'files/userorder.txt','r') as file:
 #     keyList = list(menu.keys())
@@ -124,7 +124,6 @@ filePath = r'files/ripesh.txt'
 #             amount += menu[order]
 #     total_amount = amount + (amount/100)*13
 #     print(f'Your total bill is {total_amount}')
-    # print(menu['momo'])
 # display()    
 #    total_amount = 
 # def diction():
@@ -135,3 +134,15 @@ filePath = r'files/ripesh.txt'
 #             menu[key] = value
 #         print(menu)
 # diction()
+
+# 5)Write a program to create a searching algorithm
+# ( Assume that the text is store in a file )
+
+# def Search():
+#     userInput = input("What would you like to search in the the file: ")
+#     with open (r'files/Searchfile.txt','r') as file:
+#         fileread = file.readline()
+#         print(fileread)
+#         if userInput in fileread:
+#             print(f'found the word in {userInput}')
+# Search()

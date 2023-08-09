@@ -89,3 +89,53 @@
 # c1 = Children()
 # c1.fatherfunction()
 # c1.childFunction()
+#--------------------------------------Rectangle--------------------------------------
+# class Rectangle:
+#     length = 0 
+#     breadth = 0
+#     def __init__(self,length,breadth):
+#         self.length = length
+#         self.breadth = breadth
+#     def area(self):
+#         area = self.length * self.breadth
+#         print(f"The area of rectangle is  {area}")
+#     def perimeter(self):
+#         perimeter = 2 * (self.length+self.breadth)
+#         print(f'The perimeter of rectangle is {perimeter}')
+# r1 = Rectangle(10,10)
+# r1.area()
+# r1.perimeter()
+# ) WAP which includes attributes like name, country and
+# date of birth.Write a method to determine the person's age
+# from datetime import datetime
+# class Person:
+#     def __init__(self,name,country,dob):
+#         self.name = name 
+#         self.country = country
+#         self.dob =dob
+#     def age(self):
+#         current_date = datetime.now()
+#         age = current_date - self.dob
+
+
+
+# WAP to create a class that represents a shape.Write methods calculate its area and perimeter. Also 
+# have subclasses for different shapes like circle, triangle, and square.
+# class Shape:
+#     def circle(self,radius):
+#         area = 3.14 * radius * radius
+#         print(f"The area of circle is  {area}")
+#     def Rectangle(self,length,breadth):
+#         area = length * breadth 
+#         print(f'The area of rectange is {area}')
+#     def Square(self,length):
+#         area = length * length
+#         print(f'The area of square is {area}')
+#     def triangle(self,breadth,height):
+#         area = 0.5 * breadth * height
+#         print(f'The area of triangle is {area}')
+# class Rectangle(Shape):
+#     def findarea():
+#         print("")
+# r1 = Rectangle()
+# r1.Square(23)
