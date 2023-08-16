@@ -153,15 +153,22 @@ print('==========================================')
 # print("==========")
 # print(high)
 #practise question
-with open (r'files/filehandling/Marks.rtf','r') as file:
-    numbers = (file.readlines())
-    num_list = []
-    for num in numbers:
-        num_list.append(int(num))
-    print(num_list)
-x = np.array(num_list)
-print(x)
-print(np.min(x))
-print(np.max(x))
-print(np.std(x))
-print(np.mean(x))
+# with open (r'files/filehandling/Marks.rtf','r') as file:
+#     numbers = file.readlines()
+#     num_list = []
+#     print(numbers)
+#     num_list = list(map(lambda x : int(x),numbers))
+#     print(num_list)
+    # for num in numbers:
+    #     num_list.append(int(num))
+# x = np.array(num_list)
+# print(np.min(x))
+# print(np.max(x))
+# print(np.std(x))
+# print(np.mean(x))
+# print(np.percentile(x,90))
+# print(np.percentile(x,10))
+# print(np.median(x))
+# print(np.percentile(x,25)) #first quartile 
+# print(np.add.reduce(x))
+# print(np.add.accumulate(x))
