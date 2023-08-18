@@ -172,3 +172,7 @@ print('==========================================')
 # print(np.percentile(x,25)) #first quartile 
 # print(np.add.reduce(x))
 # print(np.add.accumulate(x))
+z = np.array([1,2,3,4,5,6,np.nan])
+#none 
+print(z)
+print(np.nansum(z))

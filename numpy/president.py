@@ -22,6 +22,7 @@ height = np.array(dataFrame['height(cm)'])
 tallest_president = name[np.argmax(height)]
 # print(tallest_president)
 plt.plot(height)
+plt.show()
 print(f'The tallest president is {tallest_president} height is {np.max(height)}' )
 # #Smallest president
 # # print(f'The smallest president is height is {np.min(height)}')
@@ -48,4 +49,9 @@ print(f'The tallest president is {tallest_president} height is {np.max(height)}'
 # ## Find the number of presient whose height is maxium
 # maximum_height = sum(height == np.max(height))
 # print(f'The number of president with maximum height is  {maximum_height}')
-
+# plt.hist(height)
+# plt.title('heigh distributiion')
+# plt.xlabel("Height Cm")
+# plt.ylabel("NUMBER")
+# plt.show()
+plt.savefig('ripesh')
