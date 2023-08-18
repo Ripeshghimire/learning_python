@@ -19,8 +19,8 @@ import numpy as np
 # print(myMulti_array>16)
 
 #random array and finding 
-rng = np.random.default_rng(seed=101)
-x = rng.integers(0,10,(3,4))
+# rng = np.random.default_rng(seed=101)
+# x = rng.integers(0,10,(3,4))
 # print(x)
 # print("number of values that are greater that 4")
 # print(np.sum(x>4))
@@ -31,7 +31,15 @@ x = rng.integers(0,10,(3,4))
 # print(np.sum(x>4,axis=0))
 #check if any value is greater that 100
 
-print("check if any value is grater that 100")
-print(np.any(x>100))
-print("check if all value if less than 100 or not")
-print(np.all(x<100))
+# print("check if any value is grater that 100")
+# print(np.any(x>100))
+# print("check if all value if less than 100 or not")
+# print(np.all(x<100))
+
+
+#masking
+rng = np.random.default_rng(seed=101)
+x = rng.integers(0,10,(3,4))
+# print(x)
+condition = x >5 
+print(x[condition])

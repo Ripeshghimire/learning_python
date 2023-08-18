@@ -2,18 +2,27 @@ import numpy as np
 import pandas as pd 
 import seaborn as sns 
 import matplotlib.pyplot as plt
+
 # sns.set()
-# dataFrame = pd.read_csv('/Users/ripeshghimire/coding/python-basics /numpy/numpyfiles/president_heights.csv')
-# # print(dataFrame.head())
+dataFrame = pd.read_csv('numpy/numpyfiles/president_heights.csv')
+print(dataFrame.head())
 # #Extracting rows 
 # # print(dataFrame.iloc[2])
 # #Extracting columns
 # # print(dataFrame['height(cm)'])
 # #add height in column in numpy array
-# height = np.array(dataFrame['height(cm)'])
+name = np.array(dataFrame['name'])
+print(name)
+height = np.array(dataFrame['height(cm)'])
+# height_name = name[()]
+# print(height_name)
+# print(max_height) 
 # # print(height)
 # ##Tallest precident
-# # print(f'The tallest president height is {np.max(height)}' )
+tallest_president = name[np.argmax(height)]
+# print(tallest_president)
+plt.plot(height)
+print(f'The tallest president is {tallest_president} height is {np.max(height)}' )
 # #Smallest president
 # # print(f'The smallest president is height is {np.min(height)}')
 # #Average heigh
@@ -40,19 +49,3 @@ import matplotlib.pyplot as plt
 # maximum_height = sum(height == np.max(height))
 # print(f'The number of president with maximum height is  {maximum_height}')
 
-dataFrame = pd.read_csv('/Users/ripeshghimire/coding/python-basics /numpy/numpyfiles/Seattle2014.csv')
-pricipitation = np.array(dataFrame['PRCP'])
-print(pricipitation)
-
-# no of days with no of rainfall 
-# no of days with max rainfall 
-# no of days with more than 100mm rainfall
-# no of days with 10-100 rainfall
-no_rainfall = np.sum(pricipitation == 0)
-print(f"The no of days without rainfall is {no_rainfall}")
-max_rainfall = np.sum(pricipitation ==np.max(pricipitation))
-print(f'The no of max rainfall days is {max_rainfall}')
-morethan_100 = np.sum(pricipitation > 100)
-print(f'The no of rainfall with more than 100mm rainfall is{morethan_100}')
-between10_100 =np.sum((pricipitation<100)&(pricipitation>10))
-print(f'The no of rainfalll between 10 and 100 mm is {between10_100}')
