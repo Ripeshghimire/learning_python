@@ -49,11 +49,11 @@ myArray = [1,2,3,4,5,8,10,12,9,11]
 # for i in odd:
 #     print(i)
 
-# myArray = [1,2,3,4,5,8,10,12,9,11]
-# result = map(lambda num1:num1*num1,myArray)
-# print(list(result))
-# cube = map(lambda num1 :num1* num1 * num1,myArray)
-# print(list(cube))
-# odd = list(filter(lambda x:x%2==1,myArray))
-# even = list(filter(lambda num:num%2 == 0,myArray))
-# print(even)
+myArray = [1,2,3,4,5,8,10,12,9,11]
+result = map(lambda num1:num1*num1,myArray)
+print(list(result))
+cube = map(lambda num1 :num1* num1 * num1,myArray)
+print(list(cube))
+odd = list(filter(lambda x:x%2==1,myArray))
+even = list(filter(lambda num:num%2 == 0,myArray))
+print(even)

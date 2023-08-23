@@ -25,48 +25,48 @@ import numpy as np
 # studentMarks.index = studentRoll
 # print(studentRoll.is_unique)
 # print(studentMarks.index)
-# print(studentMarks[44])
-# print(studentMarks[101])
+# # print(studentMarks[44])
+# # print(studentMarks[101])
 
-# #pandas dataFrame 
-# date_of_birth = {
-# 'Ripesh':'August 21',
-# 'Dikshya':'September 6 ',
-# 'Ram':'July 1 ',
-# 'Shyam':'September 21'
-# }
-# mySeries = pd.Series(date_of_birth)
-# print(mySeries)
-# print(mySeries.index)
-# print(mySeries.values)
+# # #pandas dataFrame 
+# # date_of_birth = {
+# # 'Ripesh':'August 21',
+# # 'Dikshya':'September 6 ',
+# # 'Ram':'July 1 ',
+# # 'Shyam':'September 21'
+# # }
+# # mySeries = pd.Series(date_of_birth)
+# # print(mySeries)
+# # print(mySeries.index)
+# # print(mySeries.values)
 
-# print(mySeries['Ripesh'])
-#creating dataFrame from dictionary
-# dataFrame = pd.DataFrame([{'a':23,'b':24},{'c':12,'d':54},{'e':34,'f':312}])
-# print(dataFrame)
-area_dict = {'California': 423967,
-             'Texas': 695662,
-             'New York': 141297,
-             'Florida': 170312,
-             'Illinois': 149995
-             }
+# # print(mySeries['Ripesh'])
+# #creating dataFrame from dictionary
+# # dataFrame = pd.DataFrame([{'a':23,'b':24},{'c':12,'d':54},{'e':34,'f':312}])
+# # print(dataFrame)
+# area_dict = {'California': 423967,
+#              'Texas': 695662,
+#              'New York': 141297,
+#              'Florida': 170312,
+#              'Illinois': 149995
+#              }
 
-population_dict = {'California': 3833251,
-                   'Texas': 26448193,
-                   'New York': 19651127,
-                   'Florida': 19552860,
-                   'Illinois': 12882135
-                   }
-areaSeries = pd.Series(area_dict)
-populationSeries = pd.Series(population_dict)
-# print(areaSeries)
-statesDataFrame = pd.DataFrame({'population':populationSeries,'Area':areaSeries})
-print(statesDataFrame)
-print(statesDataFrame.head())
-statesDataFrame['density'] = statesDataFrame['population'] / statesDataFrame['Area']
-print(statesDataFrame)
-print(statesDataFrame.iloc[:3,:2])
-print(statesDataFrame.loc[:3,:2])
+# population_dict = {'California': 3833251,
+#                    'Texas': 26448193,
+#                    'New York': 19651127,
+#                    'Florida': 19552860,
+#                    'Illinois': 12882135
+#                    }
+# areaSeries = pd.Series(area_dict)
+# populationSeries = pd.Series(population_dict)
+# # print(areaSeries)
+# statesDataFrame = pd.DataFrame({'population':populationSeries,'Area':areaSeries})
+# print(statesDataFrame)
+# print(statesDataFrame.head())
+# statesDataFrame['density'] = statesDataFrame['population'] / statesDataFrame['Area']
+# print(statesDataFrame)
+# print(statesDataFrame.iloc[:3,:2])
+# print(statesDataFrame.loc[:3,:2])
 
 # data = pd.Series(['a','b','c'],index=[1,3,5])
 # # print(data.index)
@@ -102,3 +102,13 @@ print(statesDataFrame.loc[:3,:2])
 # print(indA | indB)
 # # difference 
 # print(indA ^ indB)
+
+
+#important function 
+# reading a csv
+df = pd.read_csv('numpy/numpyfiles/KathmanduHouse_1.csv')
+print(df.head())
+print(df.tail())
+print(df.sample())
+print(df.info())
+print(df.columns)
