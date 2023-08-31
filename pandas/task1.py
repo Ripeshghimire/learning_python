@@ -39,10 +39,8 @@ marksSeries = pd.Series(marks)
 graceSeries = pd.Series(graceMarks)
 # print(marksSeries) 
 # print(monthSeries) 
-total_marks = marksSeries + graceSeries
-result = total_marks / 4 
-print(result)
-for values in result.values:
+total_marks = marksSeries + graceSeries 
+for values in total_marks.values:
    if values > 40 :
     result = 'Pass'
    else:
@@ -53,4 +51,4 @@ for values in result.values:
 
 df = pd.DataFrame({'month':monthSeries,'year':yearSeries,'day':daySeries,'marks':marksSeries,'grace':graceSeries,'total':total_marks,'result':result})
 print(df)
-df.to_excel('student.xlsx')
+# df.to_excel('student.xlsx')
