@@ -14,3 +14,4 @@ model.predict(X)
 plt.scatter(X, y)
 plt.plot(X, y)
 plt.show()
+
